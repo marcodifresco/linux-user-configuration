@@ -19,9 +19,12 @@ fi
 export PATH=/usr/local/bin:/archive/scripts/:$PATH
 export DISPLAY=':0'
 export EDITOR=vim
-export CCACHE_DIR="/home/marco/.cache/ccache"
+export CCACHE_DIR="$HOME/.cache/ccache"
 export SUDO_ASKPASS="/usr/bin/ssh-askpass-fullscreen"
-export SSH_ENV="/home/marco/.ssh/environment"
+export SSH_ENV="$HOME/.ssh/environment"
+export TERM="xterm-256color"
+export HISTCONTROL=ignoredups:erasedup
+
 
 # Ccache
 export PATH="/usr/lib/ccache/bin${PATH:+:}$PATH"
@@ -29,9 +32,10 @@ export CCACHE_DIR="/var/cache/ccache"
 
 
 ## ALIASES ##
-# Alias for git config backup system
-alias bakpconfig='/usr/bin/git --git-dir=/archive/GitBare/linux-user-configuration.git/ --work-tree=/home/marco/'
-alias bakconfig='/usr/bin/git --git-dir=/archive/GitBare/personal-config-files.git/ --work-tree=/'
+# Some private aliases that are no use to other people
+if [ -e $HOME/.bash_aliases ]; then
+    source $HOME/.bash_aliases
+fi
 
 # Fix "Unable to set up transient service directory: XDG_RUNTIME_DIR "/run/user/1000" is owned by uid 1000, not our uid 0"
 alias su='/bin/su -'
