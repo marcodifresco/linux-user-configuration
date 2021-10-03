@@ -1,0 +1,5 @@
+{
+    "device": "alsa_output.usb-Logitech_G533_Gaming_Headset-00.analog-stereo",
+    "device-profile": "output:analog-stereo+input:mono-fallback",
+    "preset-name": "ziyad_perfecteq"
+}
