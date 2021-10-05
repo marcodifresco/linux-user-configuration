@@ -3,6 +3,8 @@ set number		" Show line numbers
 set laststatus=2	" Always display the status line in all windows
 set showtabline=2	" Always display the tab bar, even if there is only 1
 set t_Co=256		" Set if term supports 256 colors
+set wildmode=longest,list,full	"Enable auto completion
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o	" Disables automatic commenting on newline"
 
 " Color if over 80th column
 highlight OverLength ctermbg=yellow ctermfg=black guibg=#592929
@@ -24,3 +26,9 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/vim-easy-align'
 	Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
+
+" Shortcutting split navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
