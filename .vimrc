@@ -12,7 +12,8 @@ setlocal spell spelllang=en	" English spell checker
 
 
 " THEME
-let g:airline_theme='angr'      " From vim-airline
+let g:airline_theme='atomic'
+let g:airline#extensions#tabline#enabled = 1
 highlight OverLength ctermbg=yellow ctermfg=black guibg=#592929
 match OverLength /\%81v.\+/
 
@@ -26,6 +27,8 @@ endif
 call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/vim-easy-align'
 	Plug 'ntpeters/vim-better-whitespace'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 
