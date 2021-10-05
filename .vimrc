@@ -12,7 +12,7 @@ setlocal spell spelllang=en	" English spell checker
 
 
 " THEME
-let g:airline_theme='atomic'
+let g:airline_theme='angr'
 let g:airline#extensions#tabline#enabled = 1
 highlight OverLength ctermbg=yellow ctermfg=black guibg=#592929
 match OverLength /\%81v.\+/
