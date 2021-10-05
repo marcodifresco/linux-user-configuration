@@ -7,3 +7,6 @@ set t_Co=256		" Set if term supports 256 colors
 " Theme
 let g:airline_theme='angr'	" From vim-airline
 
+" Spell checking
+setlocal spell spelllang=en
+
