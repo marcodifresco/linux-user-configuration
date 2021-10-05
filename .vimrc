@@ -21,5 +21,6 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin('~/.vim/plugged')
-Plug 'junegunn/vim-easy-align'
+	Plug 'junegunn/vim-easy-align'
+	Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
