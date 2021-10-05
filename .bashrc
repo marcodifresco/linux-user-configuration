@@ -24,6 +24,8 @@ export SUDO_ASKPASS="/usr/bin/ssh-askpass-fullscreen"
 export SSH_ENV="$HOME/.ssh/environment"
 export TERM="xterm-256color"
 export HISTCONTROL=ignoredups:erasedup
+export DXVK_CONFIG_FILE="$HOME/.config/dxvk.conf"
+
 
 
 # Ccache
