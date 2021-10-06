@@ -6,7 +6,8 @@ set t_Co=256		" Set if term supports 256 colors
 set wildmode=longest,list,full	"Enable auto completion
 set encoding=utf-8	" UTF-8 Encoding
 set splitbelow splitright	" Fix split windows positions
-syntax on
+syntax on		" Enable syntax highlighting
+filetype on		" Detect file type
 autocmd FileType * setlocal formatoptions-=c formatoptions-=ri formatoptions-=o	" Disables automatic commenting on newline"
 setlocal spell spelllang=en	" English spell checker
 
