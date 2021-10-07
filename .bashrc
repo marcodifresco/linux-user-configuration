@@ -19,7 +19,8 @@ fi
 export PATH=/usr/local/bin:/archive/scripts/:$PATH
 export DISPLAY=':0'
 export EDITOR=vim
-export CCACHE_DIR="$HOME/.cache/ccache"
+#export CCACHE_DIR="$HOME/.cache/ccache"
+export CCACHE_DIR="~/.cache/ccache"
 export SUDO_ASKPASS="/usr/bin/ssh-askpass-fullscreen"
 export SSH_ENV="$HOME/.ssh/environment"
 export TERM="xterm-256color"
