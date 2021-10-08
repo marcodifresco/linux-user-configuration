@@ -9,7 +9,7 @@ set splitbelow splitright	" Fix split windows positions
 syntax on		" Enable syntax highlighting
 filetype on		" Detect file type
 autocmd FileType * setlocal formatoptions-=c formatoptions-=ri formatoptions-=o	" Disables automatic commenting on newline"
-setlocal spell spelllang=en	" English spell checker
+@setlocal spell spelllang=en	" English spell checker
 
 
 " THEME
