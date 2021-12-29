@@ -1,0 +1,16 @@
+[Desktop Entry]
+DefaultProfile=Main.profile
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+Recent Files[$e]=file:///archive/zip/monitor.json,file:///archive/zip/monitor.json
+Recent URLs[$e]=file:///archive/zip/
+detailViewIconSize=16
+
+[MainWindow]
+
+
+[UiSettings]
+ColorScheme=Dracula
