@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "omnisharp.useGlobalMono": "always",
+    "explorer.confirmDelete": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+}
