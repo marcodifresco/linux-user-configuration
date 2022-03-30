@@ -123,8 +123,8 @@ keychain ~/.ssh/id_rsa
 # Start pfetch
 /usr/bin/pfetch
 
-# Start fancy prompt
-. ~/.fancy-git/prompt.sh light
-
 export PATH="/usr/lib/ccache/bin${PATH:+:}${PATH}"
 export CCACHE_DIR="/tmp/ccache"
+
+
+. ~/.fancy-git/prompt.sh
