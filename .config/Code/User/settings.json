@@ -7,4 +7,5 @@
     "C_Cpp.updateChannel": "Insiders",
     "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
+    "workbench.startupEditor": "none",
 }
